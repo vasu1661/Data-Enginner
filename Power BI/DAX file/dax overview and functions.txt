@@ -1,0 +1,13 @@
+DAX:
+
+Introduction
+Calculated columns
+Creating Calendar table and its purpose
+Row context
+Filter context
+Aggregate functions - sum, average, sumx
+Calculate function 
+Filter functions-ALL, REMOVEFILTERS, allselected
+Time intelligence - calendar, year,month, quarter, day, totalytd, Dateadd, sameperiodlastyear, datesbetween
+Rank function- rankx
+Text functions-Concatenate, format

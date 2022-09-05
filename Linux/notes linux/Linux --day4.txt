@@ -1,0 +1,166 @@
+Redirection Operators:
+
+These are used to redirect the output or input from or to a command.
+
+4 types
+
+1) Input redirection : It will change the meaning of file data as console data.
+
+ex:    command < filename
+
+
+2) Output redirection : It is used to redirect the output of a command into a file.
+
+ex:    command > filename
+
+
+3) Output redirection with appending : output will be appended to existing file
+
+ex:    command >> filename	
+
+
+4) | ( pipe ) : It is used to redirect the output of a command to other command and so on.
+
+ex:	cmd1 | cmd2 | cmd3 ......
+
+
+
+Handling Columns and Fields :
+
+cut        -  splitting files vertically (Extract required column from a file)
+
+paste      -  merge lines of files 
+
+split      -  split a file into pieces
+
+sort       -  sort lines of text files
+
+tee        -  read from standard input and write to standard output and files
+
+file       —  determine file type
+
+
+
+
+FILE PERMISSIONS, USER TYPES:
+
+
+PERMISSIONS:
+
+read:-	If a file has read permission then only we can open or read file data
+
+write:-	If a file has write permission then only change file data
+
+execute:- IF a file has execute permission then only we can execute the file.
+
+
+
+USER TYPES:
+
+owner
+group
+others
+
+
+Ex: Display file names along with file permissions
+
+	ls -l 	
+	
+chmod ( change mode ):
+	It is used to change the file permissions. File permissions can be changed by using 2 methods.
+
+1) Symbollic mode
+
+2) Absolute mode ( real time )
+
+
+SYMBOLLIC MODE:
+
+file permissions:
+
+read		r
+write		w
+execute		x
+
+
+user types:
+
+owner		u			
+group		g			
+other		o
+all users	a
+
+Here we are having 2 operating symbols
+
++	For adding a permission
+
+-	For removing permission
+
+syn:	chmod   user_type [+ / -]  permissions        filename
+
+
+Note:
+	Default permissions of normal file
+	
+	rw-rw-r--
+
+Ex:	Add execute permission for the owner on the file scpt1
+
+	chmod  u+x  scpt1
+
+
+Ex:	Add write permission to all users  on the file emp.db
+
+	chmod u+w,g+w,o+w    emp.db
+		OR
+	chmod ugo+w    emp.db
+		OR
+	chmod a+w    emp.db
+
+
+Ex:	Remove read permission from others and group users & add all permissions to the owner on the file f1
+
+	chmod u+rwx,go-r   f1
+
+
+ABSOLUTE MODE:
+	In this method we can use a 3- digit code to represent file permissions and users.
+	This code range is 000 to 777.
+	The decimal number represents user types
+	Internally each decimal number converted into a 3-digit binary number. This binary number represents permission 	list.
+
+
+syn:	chmod   3-digitcode    filename
+
+
+Ex:	chmod    526		emp.db
+
+
+			5		2		6  [ user types ]
+		      owner		group		others
+			|		|		|
+			|		|		|
+		-------------    ---------------    -----------------
+		|    |      |     |       |     |   |       |       |
+Binary		1    0      1     0       1     0   1       1       0 
+equivalant 	r    w      x     r       w     x   r       w       x
+
+		r    -      x     -       w     -   r       w        -	
+
+
+	The above command changing the permissions as following
+	Owner having read and execute permissions
+	group having only write permissions
+	others having read and write permissions.
+
+
+	0--no
+	1--execute
+	2--write
+	3--write and execute
+	4--read
+	5--read and execute
+	6--read and write
+	7--read , write and execute.
+
+			

@@ -1,0 +1,33 @@
+
+select * from state
+select * From city
+
+select state_name, city_name
+from state left outer join city on state.state_id = city.state_id
+
+select state_name, 'CITY Exists' as Status
+from state 
+where state_id in
+                (select distinct state_id from city)
+union
+select state_name, 'CITY Not Exists' as Status 
+from state 
+where state_id not in
+                (select distinct state_id from city where state_id is not null)
+
+select state_name
+from state inner join city on state.state_id = city.state_id
+
+where state_id in
+                (select distinct state_id from city)
+
+corelated sub query
+---------------------
+select state_name, 'City Exists' as Status
+from state
+where exists (select state_id from city where city.state_id = state.state_id)
+union all
+select state_name, 'City Not Exists' as Status
+from state
+where not exists (select state_id from city where city.state_id = state.state_id)
+

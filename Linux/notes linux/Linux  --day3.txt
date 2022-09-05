@@ -1,0 +1,45 @@
+Command substitutions : in Unix/Linux it is possible to run command within a command
+
+ex: echo "Today's data is `date`"
+
+
+
+Running Multiple Commands at a same time 
+
+echo "giving multiple commands";date;who
+
+
+
+Categories of files:
+
+1. Regular files/Ordinary files : data files, program files,text files 
+
+2. Directory Files : Organize files 
+
+3. Device files or Special files : A device file is a point of interface to 
+				   on of the computer's h/w devices.
+
+
+
+File Management
+
+1.cat        -  create, concatenate files and print on the standard output
+
+2.touch      -  create empty files, or change timestamp
+
+3.ls         -  list directory contents
+
+4.cp         -  copy files and directories
+
+5.mv         -  move (rename) files
+
+6.wc         -  print newline, word, and byte counts for each file
+
+8.more       -  View the content of a file (page wise)
+
+9.less       -  opposite of more ( scroll up and scroll down)
+
+10.head      -  display first 10 lines of the files
+
+11.tail      -  display last 10 lines of the files
+

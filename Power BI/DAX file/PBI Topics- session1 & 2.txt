@@ -1,0 +1,100 @@
+Power BI:
+
+Introduction to OLAP and Power BI
+
+Download and install Power BI Desktop
+Get data
+Connecting to csv file, excel file
+
+Power Query:
+
+Renaming queries
+Renaming columns
+Defining Datatype of a column
+Filtering data on a column
+Understanding Applied steps and manipulating it
+
+Transform tab:
+Use first row as header
+Split column
+Format column
+Extract
+
+Add column tab:
+Column from examples
+Custom column
+Merge columns
+Number functions
+Text Functions
+
+View tab:
+column quality
+column profile
+column distribution
+Column profiling
+
+Home tab:
+Choose columns
+Remove columns
+Keep rows
+Remove rows
+
+Merge Queries
+Append Queries
+
+Power View:
+
+Basic Charts in Power BI- Bar, column, Pie, Donut, Line
+Creating visuals
+Conditional formatting in Tables and Matrices
+Drill down/up
+Hierarchies
+Cards, multi-row cards, Gauges
+Map Visuals-Map and filled map
+Tool tips
+Ribbon, Scatter plot, waterfall, treemap
+Advanced/Custom visual- Word cloud
+
+
+General chart selection tips:
+
+Whenever you decide to create some data visualization, use these best practices to make it more straightforward and effective.
+If you have categorical data, use a bar chart if you have more than 5 categories or a pie chart otherwise.
+If you have nominal data, use bar charts or histograms if your data is discrete, or line/ area charts if it is continuous.
+If you want to show the relationship between values in your dataset, use a scatter plot, bubble chart, or line charts.
+If you want to compare values, use a pie chart — for relative comparison — or bar charts — for precise comparison.
+If you want to compare volumes, use an area chart or a bubble chart.
+If you want to show trends and patterns in your data, use a line chart, bar chart, or scatter plot.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

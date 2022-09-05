@@ -1,0 +1,8 @@
+pip install cx_Orcale
+import cx_Oracle
+
+
+import cx_Oracle
+con = cx_Oracle.connect('shashank/shashank@orcl-aws.c8sefhobaih4.ap-south-1.rds.amazonaws.com:1521/ORCL')
+                #        username/password@host______________________________________________:port/ORCL
+print(con.version)

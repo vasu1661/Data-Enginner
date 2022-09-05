@@ -1,0 +1,117 @@
+vi Editor:  ( visual editor )
+
+	--we can create new files
+	--we can display file data
+	--we can modify file data
+
+
+We have 3-modes in VI Editor
+
+a) Command mode ( default )
+	It is used to execute vi commands.
+
+b) Append or Insert Mode
+	It is used to insert data in the file.
+
+c) Escape Mode [ press ESC key ]
+	By pressing escape key the control is comming from append mode to command.
+
+
+
+How do i open vi?
+
+Ex:	$vi
+
+How do i close vi?
+
+Ex:	:q  ( quit from vi )
+
+How do i open file in vi?
+
+Ex:	$vi  <fn>
+
+
+COMMANDS:
+
+a) Insert  / append commands:
+
+a	Appends after cursor
+A	Appends at end of current line
+i	Insert before cursor
+I	Insert at begining of line
+o	Adds a blank line after current line
+O	Adds a blank line before current line
+
+
+b) Delete and Change commands:
+
+	x	delete current char
+	dw	Delete current word
+	dd	delete current line
+
+	
+c) Misllaneous commands:
+
+	u	Undo
+	w	goto next word
+	b	goto back word
+	y 	to copy chars or words
+	p	Print copied object after cursor [ after current line ]
+	P	print copied object before cursor[ Before current line ]
+	:w	to save changes in the same file
+	:q	to quit from vi
+	:wq	save and quit
+	:s <fn> Save changes in new file
+	:q!	Quit vi editor without saving changes.
+
+
+---------------------------------------------------------
+
+
+
+grep ( global regular expression )
+	It is used to search for the specified word or pattern or string throughout the file and it's extracts the line containig word.
+
+syn:	grep  -option  "pattern "   file1  file2. . . . . . 
+
+
+options:	-i	Ignore case sensitivity of the pattern
+		-v	Display lines not having the pattern
+		-c	Display count of lines having the pattern
+		-n	Display pattern having lines along with Physical line numbers.
+
+
+1 grep hello myfile               -  it will extract a line containing hello from my file
+
+2 grep 'hello word' myfile        -  hello word is a single search pattern
+
+3 grep 'hello' myfile myfile1     -  search the pattern from multiple files
+
+4 grep -v 'hello' myfile          -  this option prints only those lines that deos not contain
+                                      the pattern (reverse)
+
+5 grep -i 'hello' myfile          -  (ignore case) it will print lines containing both                                      upper and lowe case
+ 
+6 grep -l 'hello' myfile myfile1  -  only the filenames on which the required pattern is                                       present will be printed.
+
+
+7 grep -c 'hello' myfile          -  counts the occurance of the records that contain the                                      pattern.
+
+8 grep -n 'hello' myfile          -  This option prints out the line number of the                                      selected lines
+
+9 grep -e 'hello' -e 'world' myfile - search multiple pattern 
+
+
+more examples
+
+^  -  this metacharacter is used to search and extract lines or record that begins with specific pattern.
+
+ls -l | grep '^d'
+
+
+$  -  this metacharacter is used to search and extract lines or record that ends with specific pattern.
+
+ls -l | grep 'end$'
+
+
+

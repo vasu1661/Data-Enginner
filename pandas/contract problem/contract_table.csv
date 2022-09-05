@@ -1,0 +1,6 @@
+contract_id,contract_type,cont_s_date,cont_e_date,cpt_id,cont_amt,ins_date,upd_date
+12345,government,10-jan-10,10-jan-12,100,700000,10-jan-10
+12879,individual,03-feb-11,15-feb-12,101,489938,3-feb-11
+12987,individual,15-feb-11,15-sep-11,100,289456,15-feb-11
+12346,government,13-mar-09,14-mar-11,102,200000,10-mar-09,10-apr-09
+12348,government,6-apr-12,22-may-13,103,200000,8-may-09

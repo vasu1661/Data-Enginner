@@ -1,0 +1,7 @@
+cust_name,cust_phone,cust_city,cust_since
+TIM,12345678,Chennai,15-Jan-05
+BALA,49595089,Chennai,16-Jan-06
+RAMESH,345093450,Mumbai,17-Feb-07
+BALA,49595089,Chennai,16-Jan-06
+TIM,12345678,Chennai,15-Jan-05
+BALA,49595089,Chennai,16-Jan-06

@@ -1,0 +1,65 @@
+Commands : Command is an instruction or set instruction given 
+           by a user to execute and get the desired output.
+
+
+The general structure of a Linux/UNIX command line looks like
+
+          Command    option(s)   arguement(s) 
+
+command 	- the command you want to execute
+option(s)	- Options modify the way that a command works. 
+          	  Most options consist of a single letter, prefixed by a dash. 
+          	  Often, you can specify more than one option.
+Arguement(s) 	- specify filenames
+
+
+Ex:
+           What?          how?     where?          
+            ls            -l        /home
+
+
+General commands
+
+1. date       -  print or set the system date and time
+
+2. cal        -  display a calender
+
+3. w          -  Show who is logged on and what they are doing  
+
+4. who        -  show who is logged on
+
+5. whoami     -  show current login username
+
+7. uname      -  print system information
+
+8. users      -  print  the  user names of users currently logged in to the current host
+
+9. man        -  an interface to the on-line reference manuals
+
+10.whatis     -  display manual page descriptions
+
+11.echo       -  display a line of text
+
+16.clear      -  clear the terminal
+
+19.last       -  Display information about the users who logged in and out of the system
+
+20.history    -  
+
+
+
+
+Directory Management
+
+
+15.pwd        -  print name of current/working directory
+
+16.cd         -  changing the directory
+
+17.mkdir      -  Making the directory
+
+18.rmdir      -  remove empty directory
+
+19.rm         -  removing files or directories Files
+
+

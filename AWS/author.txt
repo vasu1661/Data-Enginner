@@ -1,0 +1,4 @@
+auth_id	first_name	last_name	dob
+50	Stephan	C	10-Feb-70
+51	John	M	15-Nov-75
+52	Ram	K	20-Mar-98

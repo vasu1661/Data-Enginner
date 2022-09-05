@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 24 10:06:40 2022
+
+@author: Linus
+"""
+import pandas as pd
+housing = pd.read_csv("https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-ML0232EN-SkillsNetwork/asset/Ames_Housing_Data1.tsv", sep='\t')
+list(housing.columns)
+housing['PID'][housing['Year Built']].max()
+housing['PID'][housing['Year Built']].min()
+
+housing['PID'][housing.duplicated()]
+
+print("-------------------")
+#1.List different roof style and number of house under that roof style.
+rf=housing['Roof Style'].unique()
+rf_count=housing['Roof Style'].value_counts()
+print(rf_count)
+print("-------------------")
+
+#2.which type of garage in most number
+g =housing['Garage Type'].unique()
+g_type = housing['Garage Type'].value_counts().max()
+g_value = housing['Garage Type'][(housing["Garage Type"].value_counts().max())]
+print(g_value,':',g_type)
+print("-------------------")
+
+#3.what is total number of houses where saleprice is greater than the average saleprice
+avg_sales=housing['SalePrice'].mean()
+print(avg_sales)
+housing['SalePrice'][housing["SalePrice"] > avg_sales].count()
+print("-------------------")
+
+#4.Divide data based on Bedroom and display number of houses based on that
+br = housing.groupby('Bedroom AbvGr')
+housing['Bedroom AbvGr'].unique()
+br.count()

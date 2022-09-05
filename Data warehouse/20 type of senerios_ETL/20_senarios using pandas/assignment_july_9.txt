@@ -1,0 +1,56 @@
+apply the learning of file handling (text as well as .csv)
+ofcourse methodically apply the learning of list,tuple,set,dict, str
+max, min etc ....whereever needed.
+---------
+NOTE file to use is tounge_twisters.txt
+-----------------------------------------------
+1) use the file i have shared called the tounge_twisters.txt
+   read all the lines from the file
+   display the lines one by one
+   find out the following:
+   a) how many characters are there in the file
+   b) how many words are there in the file
+   c) how many times the word Peter comes up in the file?
+   d) in which lines the word chuck is there?
+
+2) open the file in append mode
+   and add the following lines:::
+
+   Wayne went to wales to watch walruses
+   A skunk sat on a stump and thunk the stump stunk,
+   but the stump thunk the skunk stunk
+   You know New York, you need New York, you know you need unique New York
+   
+   after adding all the lines save the file
+   a)read all the lines from the file
+   b)how many lines does it display
+   close the file
+
+   c) then read the file FIRST line and LAST line only.
+   d) display the FIRST word and LAST word of the file
+   e) how many vowels are there in the 6th line and 9th line?
+   close the file
+
+3) use the dictionary concept to print the 
+   word and frequency in sorted manner
+   a) first key wise ie. word
+   b) and later frequecy wise sorting 
+   example  say the words are Raju appears 10 times , Manoj appears 16 times
+   Anand appears 4 times, Pankaj 20 times
+   OUTPUT ...
+   Anand  4
+   Manoj  16
+   Pankaj 20
+   Raju   10 
+
+   another output....
+   Pankaj  20
+   Manoj   16
+   Raju    10
+   Anand    4
+
+**************************************
+
+ 
+
+

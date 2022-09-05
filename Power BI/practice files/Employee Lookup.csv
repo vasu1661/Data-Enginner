@@ -1,0 +1,56 @@
+staff_id,first_name,last_name,position,start_date,location
+1,Mark,Brewer,CFO,03-08-2001,HQ
+2,Jean,LeBean,CEO,03-08-2001,HQ
+3,Jamie,Toast,Head Roaster,24-10-2007,WH
+4,Chelsea,Claudia,Roaster,03-07-2003,WH
+5,Adam,Songs,Head Barista,02-04-2008,WH
+6,Karen,Cupps,Store Manager,24-07-2016,3
+7,Kelsey,Cameron,Coffee Wrangler,18-10-2003,3
+8,Hamilton,Emi,Coffee Wrangler,09-02-2005,3
+9,Caldwell,Veda,Coffee Wrangler,09-09-2013,3
+10,Ima,Winifred,Coffee Wrangler,10-12-2016,3
+11,Ruth,Leslie,Store Manager,17-06-2009,4
+12,Britanni,Jorden,Coffee Wrangler,25-03-2006,4
+13,Berk,Derek,Coffee Wrangler,11-12-2009,4
+14,Damon,Sasha,Coffee Wrangler,05-06-2010,4
+15,Remedios,Mari,Coffee Wrangler,09-05-2014,4
+16,Darren,Xu,Store Manager,30-03-2006,5
+17,Quail,Octavia,Coffee Wrangler,05-12-2014,5
+18,Ezekiel,Rashad,Coffee Wrangler,13-11-2005,5
+19,Peter,Paloma,Coffee Wrangler,12-03-2014,5
+20,Ronan,Magee,Coffee Wrangler,13-02-2002,5
+21,Melodie,Mercedes,Store Manager,29-09-2018,6
+22,Marny,Dennis,Coffee Wrangler,03-03-2014,6
+23,Blythe,Arsenio,Coffee Wrangler,22-11-2018,6
+24,Garrett,Doris,Coffee Wrangler,27-01-2007,6
+25,Aline,Melanie,Coffee Wrangler,14-03-2017,6
+26,Joelle,Christen,Store Manager,11-11-2013,7
+27,Ainsley,Evelyn,Coffee Wrangler,31-07-2003,7
+28,Joseph,Byron,Coffee Wrangler,17-05-2014,7
+29,Orson,Benedict,Coffee Wrangler,26-07-2016,7
+30,Amela,Chadwick,Coffee Wrangler,17-09-2005,7
+31,Lisa,Latte,Store Manager,02-07-2009,8
+32,Alisa,Lysandra,Coffee Wrangler,02-02-2005,8
+33,Cairo,Vaughan,Coffee Wrangler,18-02-2015,8
+34,Yasir,Lillith,Coffee Wrangler,16-02-2016,8
+35,Xavier,Zachary,Coffee Wrangler,07-01-2014,8
+36,Anthony,Kaitlin,Store Manager,19-04-2004,9
+37,Hop,Bianca,Coffee Wrangler,11-02-2015,9
+38,Ezekiel,Bertha,Coffee Wrangler,15-10-2008,9
+39,Vance,Samuel,Coffee Wrangler,09-06-2016,9
+40,Brent,Herman,Coffee Wrangler,25-10-2001,9
+41,Adrian,Macon,Store Manager,13-10-2001,10
+42,Kylie,Candace,Coffee Wrangler,30-01-2011,10
+43,Tatum,Laurel,Coffee Wrangler,31-01-2015,10
+44,Tamekah,Maya,Coffee Wrangler,17-05-2005,10
+45,Pandora,Neville,Coffee Wrangler,21-03-2019,10
+46,Desiree,Anika,Store Manager,15-06-2008,FL
+47,Hope,Sheila,Coffee Wrangler,31-01-2003,FL
+48,Clare,Oscar,Coffee Wrangler,21-02-2003,FL
+49,Gemma,Eaton,Coffee Wrangler,04-05-2013,FL
+50,Dale,Joshua,Coffee Wrangler,01-10-2015,FL
+51,Lawrence,Roberts,Store Manager,03-08-2001,FL
+52,Melinda,Zeus,Coffee Wrangler,17-08-2003,FL
+53,Sawyer,Kasper,Coffee Wrangler,11-11-2007,FL
+54,Ezekiel,Griffin,Coffee Wrangler,13-09-2005,FL
+55,Coby,Shelly,Coffee Wrangler,17-11-2015,FL

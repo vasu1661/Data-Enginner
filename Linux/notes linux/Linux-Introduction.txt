@@ -1,0 +1,141 @@
+What is an Operating System?
+
+An Operating System (OS) is software that acts as an interface between computer hardware components and the user.
+
+Types :
+
+Windows	
+Unix
+Linux
+Mac OS
+
+Android	
+iOS
+
+
+Unix:
+
+Unix is a multi-user & Multitasking Operating system  --It allows multiple users to log on to the operating system.
+
+Unix was developed by Dennis Ritchie at bell labs and it was released in the year 1971.
+
+By default, UNIX is CUI based operating system.
+
+After some versions, Unix is released as a GUI Operating system.
+
+
+Flavors of Unix:
+
+1) BSD Unix from Bell labs
+
+2) Sun Solaris
+
+3) IBM AIX
+
+4) HP UX
+
+
+Linux:
+
+It is also a multi-user & multi-tasking Operating system. 
+
+And it was developed by Linus Torvalds in 1991.
+
+By default Linux is GUI.
+
+Linux is Open Source code software. We can freely download it and anyone can modify the programming of the Operating System.
+
+
+Flavors of Linux:
+
+1) Ubuntu
+2) Suse 
+3) Fedora
+4) Red Hat 
+5) Oracle Enterprise Linux ( OEL )
+6) Centos
+
+
+			user-1			user-2			user-3
+			  |			  |			  |
+			-----------------------------------------------------
+			java			Oracle			sap
+			|	`		|			|
+			-----------------------------------------------------
+			shell			shell			shell
+			|			|			|
+			|			|			|
+			---------------------------------------------------
+				K	E	R	N	E	L
+						|
+					     HARDWARE
+
+
+	
+	
+user interaction in cui:
+
+	user----->shell------> kernel-----> H/W
+
+user interaction in Gui:
+
+	User-------->KDE/Gnome------> shell------>kernel------->H/W
+
+
+KERNEL:
+	It is an initial process while booting system. It acts as parent for all remaining processes. It coordinates all processes with in the system.
+	
+
+
+SHELL:	It is an interface between user's application and Kernel. Shell translates user's data in to machine language.
+	
+Shell is a command interpreter and it executes the commands.
+
+
+
+
+
+FILE SYSTEM STRUCTURE:
+
+In unix , file system structure is heirarichal structure ( like parent and child )
+
+
+
+
+					/root
+					 |
+-----------------------------------------------------------------------------------------------------------------
+|		|		|		|		|		|		|		|
+/home		/bin		/lib		/dev		/sbin		/etc		/usr		/tmp
+
+
+/home:	It maintains home directory information for the logged in users
+
+/bin:	It contains .exe files
+
+/lib:	It contains library files
+
+/dev:	It contains device files.
+
+/sbin:	It contains system related .exe files
+
+/etc:	It contains Admin files
+
+/usr:	It contains user related files
+
+/tmp:	It contains temporary files
+
+/mnt:	It contains mountable devices information
+
+/opt:	It contains the files installing on to unix os.
+
+/var:	It contains scheduled files information.
+
+
+
+
+	
+
+
+
+

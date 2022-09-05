@@ -1,0 +1,5 @@
+item,price_per_plate
+Iddli,30
+Dosa,55 
+Upma,25
+Sweet,20

@@ -1,0 +1,5 @@
+Cont_id,Cont_type,Cont_S_date,Cont_E_date,Cpt_id,Cont_amt,Inst_date,Upd_date
+12345,Govn,10-Jan-10,10-Jan-11,101,700000,10-Jan-10,
+12346,individual,03-Feb-11,15-Feb-12,102,489938,03-Feb-11,
+12347,Govn,15-Feb-11,20-Feb-13,103,200000,15-Feb-11,
+12348,Individual,01-Sep-12,10-Feb-13,100,400000,01-Sep-12,10-Apr-13

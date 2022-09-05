@@ -1,0 +1,62 @@
+Power BI Developer:
+
+SQL-basics of sql, procedures, functions, performance tuning
+power bi - power query, visualization, dax , pbi service , tableau, google data studio
+business domain knowledge
+python- import data- good to know - pandas, numpy, matplotlib, seaborn 
+R
+statistics 
+ML
+
+Backend: Database,ETL tool
+
+Front end:BI/ Visualization tool
+
+How did you gather your requirements?
+
+Project workflow:
+business requirements- biz team- ppt or word doc or email
+conversation with DE and biz team to identify data sources 
+finalize fields required for reporting
+finalize calculation/formulas-biz team
+development of reports
+Validate the data- sql vs power bi data
+present to business- get the feedback - work on changes
+publish report to pbi service
+automatic refresh of report
+
+How did you incorporate changes after publishing reports?
+version control- pbix files in sharepoint folders
+
+Advanced analysis- time series analysis, top/bottom n analysis - top 5 employees, productzs, customers
+
+daily standup / scrum call- providing updates on work, 
+blockers: data source, access issue, incorrect data, waiting for clarification from business / DE team
+
+Stakeholder mgmt:
+
+Business team- KPIs, what are the formulas/calculations for fields/columns in the reports, frequency of data refresh
+DE Team- which dataset to use for the requirement,data issue, key columns on which you can join your tables
+
+Power BI:
+End to end: 
+Development:
+connecting to data source
+cleaning the data in power query
+Visualization  
+
+Administration:
+Power bi service-admins were taking care of this.
+
+
+
+
+
+
+
+
+
+power query vs python
+
+python is more powerful than power query
+power query light weight data modelling tool

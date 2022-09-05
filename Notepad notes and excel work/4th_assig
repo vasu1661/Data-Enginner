@@ -1,0 +1,82 @@
+create table country (country_id number(3) primary key,
+                      country_name varchar(20) not null);
+insert into country values(100, 'India');
+insert into country values(101, 'Shrilanka');
+insert into country values(102, 'USA');
+insert into country values(103, 'Canada');
+                      
+create table resort (res_id number(3) primary key,
+                     res_name varchar(20) not null,
+                     res_type varchar(30),
+                     country_id references country(country_id));
+insert into resort values(50, 'Taj Mumbai', 'City Center',100);
+insert into resort values(51, 'Taj Goa', 'Beach Resort',100);
+insert into resort values(52, 'Ramada', 'Beach Resort',101);
+insert into resort values(53, 'Blue Life', 'Beach Resort',101);
+insert into resort values(54, 'Leamon Tea', 'City Center',100);                     
+                     
+create table customer (cust_id number(3) primary key,
+                       cust_name varchar(20) not null,
+                       cust_phone number(12),
+                       cust_city varchar(20),
+                       cust_dob date,
+                       country_id references country(country_id));
+insert into customer values(1,'Tim',7204964567,'NY','10-jan-00',102);
+insert into customer values(2,'Bill',7204964568,'NY','10-feb-99',102);
+insert into customer values(3,'Ram',7204964569,'BLR','13-mar-01',100);
+insert into customer values(4,'Kumar',7204964570,'BLR','19-apr-03',100);
+insert into customer values(5,'Uma',7204964571,'Toranto','',103);
+insert into customer values(6,'Suraj',7204964572,'Toranto','15-nov-98',103);
+insert into customer values(7,'Suma','','Mumbai','',100);
+insert into customer values(8,'Vish','','Mumbai','14-Feb-88',100);
+
+select * from country;
+select * from resort;
+select * from customer;
+
+
+--1.Country Name, Number of Resorts
+select country_name,count(res_name) 
+from country c inner join resort r on c.country_id=r.country_id
+group by country_name;
+
+--2.Country Name, Number of Customers
+select country_name,count(cust_name) 
+from country c inner join customer c1 on c.country_id=c1.country_id
+group by country_name;
+
+--3.Country Name, Number of Resorts, Number of Customers
+select country_name,count(res_name),count(cust_name) 
+from country c inner join resort r on c.country_id=r.country_id inner join customer c1 on r.country_id=c1.country_id
+group by country_name;
+
+--4.What is the relationship between country and resort?
+--one to many
+
+--5.What is the relationship between country and customer?
+--many to many
+
+--How many records we get?
+--1.When we do an inner join between Country & Resort?
+--5
+select country_name,res_name 
+from country c inner join resort r on c.country_id=r.country_id;
+
+--2.When we do an left join between country & resort? (left side table is country)
+--7
+select country_name,res_name 
+from country c left join resort r on c.country_id=r.country_id;
+
+--3.When we do inner join between country & customer?
+--8
+select country_name,cust_name 
+from country c inner join customer c1 on c.country_id=c1.country_id;
+
+--4.When we do a left join between country & resort (left side table is country)?
+--7
+
+--5.When we do an inner join between Country, resort and customer? (Analyze and verify the same)
+select country_name,res_name,cust_name 
+from country c inner join resort r on c.country_id=r.country_id inner join customer c1 on r.country_id=c1.country_id;
+
+commit;

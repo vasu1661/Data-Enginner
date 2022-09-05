@@ -1,0 +1,15 @@
+Oracle server:
+host/server name - orcl-aws.c8sefhobaih4.ap-south-1.rds.amazonaws.com
+Username - team7_vasu
+password - team7_vasu
+DB indentifier - orcl
+port no  - 1521
+
+
+# click on (+)connection icon on left side of the panel.
+# name - any name ex. cloud_db
+# username and password
+# host name - orcl-aws.c8sefhobaih4.ap-south-1.rds.amazonaws.com
+# service name - orcl
+# port - 1521
+# click on test button and then click on save and connect button
